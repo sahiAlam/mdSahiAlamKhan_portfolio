@@ -1,0 +1,78 @@
+import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+
+const SocialLinks = () => {
+  const links = [
+    {
+      id: 1,
+      child: (
+        <>
+          Linkedin <FaLinkedin size={30} />
+        </>
+      ),
+      href: "https://www.linkedin.com/in/md-sahi-00ba7b213/",
+      border_style: "rounded-tr-md",
+    },
+    {
+      id: 2,
+      child: (
+        <>
+          GitHub <FaGithub size={30} />
+        </>
+      ),
+      href: "https://github.com/sahiAlam",
+    },
+    {
+      id: 3,
+      child: (
+        <>
+          Mail <HiOutlineMail size={30} />
+        </>
+      ),
+      href: "mailto: ksahi4088@gmail.com",
+    },
+    {
+      id: 4,
+      child: (
+        <>
+          Resume <BsFillPersonLinesFill size={30} />
+        </>
+      ),
+      href: "./resume.pdf",
+      border_style: "rounded-br-md",
+      download: true,
+    },
+  ];
+  return (
+    <>
+      <div className="hidden lg:flex flex-col fixed top-[35%] left-0">
+        <ul>
+          {links.map(({ id, child, href, border_style, download }) => (
+            <li
+              key={id}
+              className={
+                "flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300" +
+                " " +
+                border_style
+              }
+            >
+              <a
+                href={href}
+                target="_blank"
+                download={download}
+                rel="noreferrer"
+                className="flex items-center justify-between w-full text-white"
+              >
+                {child}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
+  );
+};
+
+export default SocialLinks;

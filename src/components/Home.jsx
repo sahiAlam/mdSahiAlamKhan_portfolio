@@ -1,0 +1,124 @@
+import React from "react";
+// import HeroImage from "../assets/heroImage.jpg";
+import { BsArrowRightShort } from "react-icons/bs";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { FaInstagram } from "react-icons/fa";
+import { Link } from "react-scroll";
+
+const Home = () => {
+  return (
+    <>
+      <div
+        name="home"
+        className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      >
+        <div className="lg:max-w-screen-lg  mx-auto flex flex-col items-center justify-between h-full px-4 md:flex-row md:space-x-12">
+          <div className="flex flex-col justify-center h-full">
+            <h2 className="text-4xl md:text-5xl lg:7xl font-bold text-white">
+              I'm a Front End Web Developer
+            </h2>
+            <p className="text-gray-400 py-4 max-w-md text-md md:text-xl">
+              Hi, I'm a undergraduate student from Government College of
+              Engineering and Ceramic Technology. My Specialisation in
+              Information technology.
+            </p>
+            {/* mobile social icons  */}
+            <SmallScreenSocial />
+            <div className="flex space-x-4">
+              <Link
+                to="portfolio"
+                smooth
+                duration={500}
+                className="group text-white w-fit px-3 py-2 my-4 md:px-6 md:py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-400"
+              >
+                Portfolio
+                <span className="group-hover:rotate-90 duration-300">
+                  <BsArrowRightShort size={25} className="ml-1" />
+                </span>
+              </Link>
+              <Link
+                to="contact"
+                smooth
+                duration={500}
+                className="group text-white w-fit px-3 py-2 my-4 md:px-6 md:py-3 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-blue-500 cursor-pointer hover:scale-105 duration-400"
+              >
+                Let's Chat
+                <span className="group-hover:rotate-90 duration-300">
+                  <BsArrowRightShort size={25} className="ml-1" />
+                </span>
+              </Link>
+            </div>
+          </div>
+          {/* <div className="w-4/5">
+            <img
+              src={HeroImage}
+              alt="my profile"
+              className="rounded-2xl w-4/6 mini:w-3/5 hue-rotate-15 saturate-100"
+            />
+          </div> */}
+        </div>
+      </div>
+    </>
+  );
+};
+
+// Mobile Social Icon Component
+const SmallScreenSocial = () => {
+  const socialLinks = [
+    {
+      id: 1,
+      child: (
+        <>
+          <FaLinkedin size={25} />
+        </>
+      ),
+      href: "https://www.linkedin.com/in/md-sahi-00ba7b213/",
+      border_style: "rounded-tr-md",
+    },
+    {
+      id: 2,
+      child: (
+        <>
+          <FaGithub size={25} />
+        </>
+      ),
+      href: "https://github.com/sahiAlam",
+    },
+    {
+      id: 3,
+      child: (
+        <>
+          <HiOutlineMail size={25} />
+        </>
+      ),
+      href: "mailto: ksahi4088@gmail.com",
+    },
+    {
+      id: 4,
+      child: (
+        <>
+          <FaInstagram size={25} />
+        </>
+      ),
+      href: "https://www.instagram.com/0mdsahialamkhan0/",
+    },
+  ];
+  return (
+    <>
+      <div className="flex text-white lg:hidden">
+        <ul className="flex space-x-4 my-4">
+          {socialLinks.map(({ id, child, href }) => (
+            <li key={id} className="">
+              <a href={href}>
+                <>{child}</>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
+  );
+};
+
+export default Home;
