@@ -62,7 +62,7 @@ const Header = () => {
   ];
   return (
     <>
-      <div className="dark:bg-white flex items-center justify-between px-16 bg-black text-white h-16 md:h-20 w-full fixed z-20">
+      <div className="dark:bg-white flex items-center justify-between lg:px-16 px-5 bg-black text-white h-16 md:h-20 w-full fixed z-20">
         <div className="z-10">
           <h1 className="text-xl md:text-2xl font-signature cursor-pointer">
             <Link to="home" smooth duration="700" delay="100">
