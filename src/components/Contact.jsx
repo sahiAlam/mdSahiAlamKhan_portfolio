@@ -4,9 +4,9 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      className="w-full h-full bg-gradient-to-b from-black to-gray-800 px-5 pt-20 text-white"
     >
-      <div className="flex flex-col md:px-5 justify-center max-w-screen-lg mx-auto h-full">
+      <div className="max-w-screen-lg mx-auto h-auto">
         <div className="pb-8">
           <p className="text-3xl md:text-4xl font-bold inline border-b-4 border-gray-500">
             Cotact
