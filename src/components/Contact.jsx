@@ -1,5 +1,4 @@
 import React from "react";
-
 const Contact = () => {
   return (
     <div
@@ -9,7 +8,7 @@ const Contact = () => {
       <div className="max-w-screen-lg mx-auto h-auto">
         <div className="pb-8">
           <p className="text-3xl md:text-4xl font-bold inline border-b-4 border-gray-500">
-            Cotact
+            Cotact Me
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>

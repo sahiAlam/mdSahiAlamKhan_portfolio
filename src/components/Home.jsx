@@ -1,9 +1,10 @@
 import React from "react";
-// import HeroImage from "../assets/heroImage.jpg";
+import HeroImage from "../assets/heroImage.jpg";
 import { BsArrowRightShort } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaInstagram } from "react-icons/fa";
+import { SiVercel } from "react-icons/si";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -13,8 +14,8 @@ const Home = () => {
         name="home"
         className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
       >
-        <div className="lg:max-w-screen-lg  mx-auto flex flex-col items-center justify-between h-full px-4 md:flex-row md:space-x-12">
-          <div className="flex flex-col justify-center h-full">
+        <div className="lg:max-w-screen-lg  mx-auto flex flex-col items-center justify-between h-full px-4 sm:pt-24 md:flex-row md:space-x-12">
+          <div className="flex flex-col justify-center h-full lg:w-4/5">
             <h2 className="text-4xl md:text-5xl lg:7xl font-bold text-white">
               I'm a Front End Web Developer
             </h2>
@@ -50,13 +51,13 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          {/* <div className="w-4/5">
+          <div className="w-4/5">
             <img
               src={HeroImage}
               alt="my profile"
-              className="rounded-2xl w-4/6 mini:w-3/5 hue-rotate-15 saturate-100"
+              className="rounded-md w-4/6 mini:w-3/5 hue-rotate-15 saturate-100 mx-auto md:w-full lg:rounded-[50%] brightness-50"
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </>
@@ -89,13 +90,22 @@ const SmallScreenSocial = () => {
       id: 3,
       child: (
         <>
+          <SiVercel size={25} />
+        </>
+      ),
+      href: "https://vercel.com/sahialam",
+    },
+    {
+      id: 4,
+      child: (
+        <>
           <HiOutlineMail size={25} />
         </>
       ),
       href: "mailto: ksahi4088@gmail.com",
     },
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           <FaInstagram size={25} />
@@ -110,7 +120,7 @@ const SmallScreenSocial = () => {
         <ul className="flex space-x-4 my-4">
           {socialLinks.map(({ id, child, href }) => (
             <li key={id} className="">
-              <a href={href}>
+              <a href={href} target="blank">
                 <>{child}</>
               </a>
             </li>

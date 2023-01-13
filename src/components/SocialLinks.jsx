@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { SiVercel } from "react-icons/si"; 
 
 const SocialLinks = () => {
   const links = [
@@ -25,7 +26,16 @@ const SocialLinks = () => {
       href: "https://github.com/sahiAlam",
     },
     {
-      id: 3,
+      id: 2,
+      child: (
+        <>
+          Vercel <SiVercel size={30} />
+        </>
+      ),
+      href: "https://vercel.com/sahialam",
+    },
+    {
+      id: 4,
       child: (
         <>
           Mail <HiOutlineMail size={30} />
@@ -34,7 +44,7 @@ const SocialLinks = () => {
       href: "mailto: ksahi4088@gmail.com",
     },
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
