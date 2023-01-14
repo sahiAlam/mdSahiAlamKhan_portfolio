@@ -75,28 +75,28 @@ const Footer = () => {
               />
             </div>
             <div className="mx-auto">
-              <h3 className="text-2xl sm:text-3xl md:text-4xl pb-1.5 font-bold text-gray-400">
+              <h3 className="text-2xl text-center sm:text-left sm:text-3xl md:text-4xl pb-1.5 font-bold text-gray-400">
                 Links
               </h3>
               <ul className="py-4 space-y-3 text-gray-500">
                 {footerLinks.map(({ id, src }) => (
-                  <li key={id} className="uppercase text-md cursor-pointer md:hover:text-gray-200 transition md:hover:scale-105">
+                  <li key={id} className="uppercase text-md cursor-pointer md:hover:text-gray-200 transition md:hover:scale-105 text-center sm:text-start">
                     <Link to={src}>{src}</Link>
                   </li>
                 ))}
               </ul>
             </div>
             <div className="mx-auto">
-              <h3 className="text-2xl sm:text-3xl md:text-4xl pb-1.5 font-bold text-gray-400">
+              <h3 className="text-2xl text-center sm:text-left sm:text-3xl md:text-4xl pb-1.5 font-bold text-gray-400">
                 Myself
               </h3>
               <ul className="py-3 text-gray-500">
-                <li className=" space-y-1">
-                  <p className="capitalize">Md. Sahi Alam khan</p>
-                  <p className="capitalize">GCECT, kolkata</p>
-                  <p className="capitalize">west bengal</p>
-                  <p className="capitalize">ksahi4088@gmail.com</p>
-                  <p className="capitalize">phone: +916295331089</p>
+                <li className=" space-y-1 text-center sm:text-start">
+                  <p className="capitalize text-center sm:text-start">Md. Sahi Alam khan</p>
+                  <p className="capitalize text-center sm:text-start">GCECT, kolkata</p>
+                  <p className="capitalize text-center sm:text-start">west bengal</p>
+                  <p className="capitalize text-center sm:text-start">ksahi4088@gmail.com</p>
+                  <p className="capitalize text-center sm:text-start">phone: +916295331089</p>
                 </li>
               </ul>
             </div>
