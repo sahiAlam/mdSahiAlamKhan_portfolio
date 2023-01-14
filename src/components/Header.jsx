@@ -32,7 +32,7 @@ const Header = () => {
     <>
       <div className="dark:bg-white flex items-center justify-between xl:px-16 sm:px-3 px-2 bg-black text-white h-14  sm:h-16 md:h-20 w-full fixed z-20">
         <div className="z-10">
-          <h1 className="text-md sm:text-xl md:text-2xl font-signature cursor-pointer">
+          <h1 className="text-md sm:text-xl md:text-2xl font-signature cursor-pointer font-bold">
             <Link to="home" smooth>
               Md. Sahi
             </Link>

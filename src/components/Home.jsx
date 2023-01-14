@@ -41,7 +41,7 @@ const Home = () => {
                 to="contact"
                 smooth
                 duration={500}
-                className="group text-white w-fit px-3 py-2 my-4 md:px-6 md:py-3 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-blue-500 cursor-pointer hover:scale-105 duration-500"
+                className="group text-white w-fit px-3 py-2 my-4 md:px-6 md:py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-500"
               >
                 Let's Chat
                 <span className="group-hover:rotate-90 duration-300">
@@ -54,7 +54,7 @@ const Home = () => {
             <img
               src={HeroImage}
               alt="my profile"
-              className="rounded-md w-4/6 mini:w-3/5 hue-rotate-15 saturate-100 mx-auto md:w-full lg:rounded-[50%] brightness-50"
+              className="rounded-md w-4/6 mini:w-3/5 hue-rotate-15 saturate-150 mx-auto md:w-full lg:rounded-[50%] brightness-50"
             />
           </div>
         </div>

@@ -1,18 +1,9 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 const Contact = () => {
-  const nameRef = useRef(null);
-  const emailRef = useRef(null);
-  const messageRef = useRef(null);
-
-  useEffect(() => {
-    nameRef.current.value = "";
-    emailRef.current.value = "";
-    messageRef.current.value = "";
-  })
   return (
     <div
       name="contact"
-      className="w-full h-full bg-gradient-to-b from-black to-gray-800 px-2 sm:px-3 pt-20 text-white"
+      className="w-full h-full bg-gradient-to-b from-black to-gray-800 px-2 sm:px-3 py-20 text-white"
     >
       <div className="max-w-screen-lg mx-auto h-auto">
         <div className="pb-8">
@@ -31,7 +22,6 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              ref={nameRef}
               placeholder="Enter your name"
               required
               autoComplete="off"
@@ -40,7 +30,6 @@ const Contact = () => {
             <input
               type="email"
               name="email"
-              ref={emailRef}
               placeholder="Enter your email"
               required
               autoComplete="off"
@@ -48,7 +37,6 @@ const Contact = () => {
             />
             <textarea
               name="message"
-              ref={messageRef}
               placeholder="Enter your message"
               required
               autoComplete="off"
