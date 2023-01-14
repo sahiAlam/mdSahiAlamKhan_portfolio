@@ -3,9 +3,10 @@ import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
+import bootstrap from "../assets/bootstrap.png";
 import reactImage from "../assets/react.png";
+import nodeJs from "../assets/node.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -31,9 +32,9 @@ const Experience = () => {
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-purple-600",
     },
     {
       id: 5,
@@ -43,15 +44,21 @@ const Experience = () => {
     },
     {
       id: 6,
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 6,
       src: nextjs,
       title: "Next JS",
       style: "shadow-white",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: nodeJs,
+      title: "Node JS",
+      style: "shadow-green-400",
     },
     {
       id: 8,
@@ -64,9 +71,9 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full sm:pt-20 pt-28"
+      className="bg-gradient-to-b from-gray-800 to-black w-full sm:pt-20 pt-28 px-2 sm:px-3"
     >
-      <div className="max-w-screen-lg mx-auto p-5 flex flex-col pb-10 justify-center w-full h-screen text-white">
+      <div className="max-w-screen-lg mx-auto flex flex-col pb-10 justify-center w-full h-screen text-white">
         <div>
           <p className="text-3xl md:text-4xl font-bold border-b-4 border-gray-500 py-1 inline">
             Experience

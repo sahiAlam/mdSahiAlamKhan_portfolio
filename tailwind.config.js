@@ -26,7 +26,8 @@ module.exports = {
 
     extend: {},
     fontFamily: {
-      signature: ["Great Vibes"]
+      signature: ["Great Vibes"],
+      numbers: ["Skranji"]
     }
   },
   plugins: [],

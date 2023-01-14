@@ -4,9 +4,9 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-full bg-gradient-to-b from-gray-800 to-black text-white pt-24"
+      className="w-full h-full bg-gradient-to-b from-gray-800 to-black text-white pt-24 px-2 sm:px-3"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-5">
           <p className="text-3xl md:text-4xl font-bold inline border-b-4 border-gray-500">
             About Me
@@ -24,9 +24,8 @@ const About = () => {
         <p className="text-normal lg:text-xl py-4">
           I have a strong background in designing and implementing responsive
           web designs that look great on any device. I have experience working
-          on a wide range of projects, from small landing pages to large-scale
-          web applications for various industries, including e-commerce,
-          healthcare, and finance.
+          on a wide range of projects, you can just go and checkout my GitHub
+          profile above..
         </p>
         <p className="text-normal lg:text-xl py-4">
           I am passionate about creating great user experiences and am always

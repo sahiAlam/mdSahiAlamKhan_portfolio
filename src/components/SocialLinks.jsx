@@ -1,8 +1,8 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { SiVercel } from "react-icons/si"; 
+import { FaWhatsapp } from "react-icons/fa";
+import { SiVercel } from "react-icons/si";
 
 const SocialLinks = () => {
   const links = [
@@ -47,30 +47,29 @@ const SocialLinks = () => {
       id: 5,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          WhatsApp <FaWhatsapp size={30} />
         </>
       ),
-      href: "./resume.pdf",
+      href: "https://wa.me/+916295331089",
       border_style: "rounded-br-md",
       download: true,
     },
   ];
   return (
     <>
-      <div className="hidden lg:flex flex-col fixed top-[35%] left-0">
+      <div className="hidden lg:flex flex-col fixed top-[35%] left-0 z-10">
         <ul>
           {links.map(({ id, child, href, border_style, download }) => (
             <li
               key={id}
               className={
-                "flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300" +
-                " " +
-                border_style
+                `flex justify-between items-center w-40 h-12 px-4 bg-gray-500 ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300
+                ${border_style}`
               }
             >
               <a
                 href={href}
-                target="_blank"
+                target="blank"
                 download={download}
                 rel="noreferrer"
                 className="flex items-center justify-between w-full text-white"
