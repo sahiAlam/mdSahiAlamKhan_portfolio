@@ -61,7 +61,7 @@ const Footer = () => {
     <>
       <div className="bg-black px-2 sm:px-3 pt-20">
         <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full pt-10 md:pt-16">
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 lg:px-0 sm:px-3 px-2 border-b-2 border-b-gray-600 text-white pb-10">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 lg:px-0 sm:px-3 px-2 border-b-2 border-b-gray-700 text-white pb-10">
             <div className="text-center text-gray-400 flex flex-col items-center space-y-3">
               <Link to="home">
                 <h1 className="font-numbers text-gray-400 font-bold text-2xl md:text-4xl lg:text-5xl cursor-pointer inline-block">
@@ -69,13 +69,13 @@ const Footer = () => {
                 </h1>
               </Link>
               <img
-                class="inline-block h-2w-24 w-24 rounded-full ring-2 ring-white"
+                className="inline-block h-2w-24 w-24 rounded-full ring-2 ring-white"
                 src={heroImage}
                 alt="My avatar"
               />
             </div>
             <div className="mx-auto">
-              <h3 className="text-2xl sm:text-3xl md:text-4xl pb-1.5 border-b-4 border-gray-400 text-gray-400">
+              <h3 className="text-2xl sm:text-3xl md:text-4xl pb-1.5 font-bold text-gray-400">
                 Links
               </h3>
               <ul className="py-4 space-y-3 text-gray-500">
@@ -87,7 +87,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="mx-auto">
-              <h3 className="text-2xl sm:text-3xl md:text-4xl pb-1.5 border-b-4 border-gray-400 text-gray-400">
+              <h3 className="text-2xl sm:text-3xl md:text-4xl pb-1.5 font-bold text-gray-400">
                 Myself
               </h3>
               <ul className="py-3 text-gray-500">
@@ -114,7 +114,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-            <p className="text-center py-6">
+            <p className="text-center py-6 text-gray-400">
               ©Copyright. All right reserved. This portfolio made with ❤️ by Me.
             </p>
           </div>
