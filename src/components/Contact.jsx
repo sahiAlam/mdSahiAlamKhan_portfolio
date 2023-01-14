@@ -1,5 +1,14 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 const Contact = () => {
+  const nameRef = useRef(null);
+  const emailRef = useRef(null);
+  const messageRef = useRef(null);
+
+  useEffect(() => {
+    nameRef.current.value = "";
+    emailRef.current.value = "";
+    messageRef.current.value = "";
+  })
   return (
     <div
       name="contact"
@@ -22,6 +31,7 @@ const Contact = () => {
             <input
               type="text"
               name="name"
+              ref={nameRef}
               placeholder="Enter your name"
               required
               autoComplete="off"
@@ -30,6 +40,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
+              ref={emailRef}
               placeholder="Enter your email"
               required
               autoComplete="off"
@@ -37,6 +48,7 @@ const Contact = () => {
             />
             <textarea
               name="message"
+              ref={messageRef}
               placeholder="Enter your message"
               required
               autoComplete="off"
