@@ -49,19 +49,19 @@ const Experience = () => {
       style: "shadow-blue-600",
     },
     {
-      id: 6,
+      id: 7,
       src: nextjs,
       title: "Next JS",
       style: "shadow-white",
     },
     {
-      id: 7,
+      id: 8,
       src: nodeJs,
       title: "Node JS",
       style: "shadow-green-400",
     },
     {
-      id: 8,
+      id: 9,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",

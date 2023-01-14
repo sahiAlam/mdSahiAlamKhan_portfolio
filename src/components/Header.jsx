@@ -33,7 +33,7 @@ const Header = () => {
       <div className="dark:bg-white flex items-center justify-between xl:px-16 sm:px-3 px-2 bg-black text-white h-14  sm:h-16 md:h-20 w-full fixed z-20">
         <div className="z-10">
           <h1 className="text-md sm:text-xl md:text-2xl font-signature cursor-pointer">
-            <Link to="home" smooth duration="700" delay="300">
+            <Link to="home" smooth>
               Md. Sahi
             </Link>
           </h1>
@@ -53,7 +53,7 @@ const Header = () => {
                 key={id}
                 className="text text-gray-400 cursor-pointer capitalize px-4 hover:scale-110 duration-200 hover:text-white"
               >
-                <Link to={link} smooth duration="500" delay="200">
+                <Link to={link} smooth>
                   {link}
                 </Link>
               </li>

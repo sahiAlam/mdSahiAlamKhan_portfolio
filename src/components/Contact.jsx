@@ -17,7 +17,7 @@ const Contact = () => {
           <form
             action="https://getform.io/f/ce70118c-3f95-42b4-a577-9c5eb63a075a"
             method="POST"
-            className=" flex flex-col w-full md:w-1/2"
+            className="flex flex-col w-full md:w-1/2"
           >
             <input
               type="text"
@@ -28,7 +28,7 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md border-opacity-60 border-gray-500 text-white focus:outline-none focus:bg-black  focus:border-opacity-100"
             />
             <input
-              type="text"
+              type="email"
               name="email"
               placeholder="Enter your email"
               required
@@ -44,7 +44,10 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 border-opacity-60 rounded-md border-gray-500 text-white focus:outline-none  focus:bg-black resize-none focus:border-opacity-100"
             ></textarea>
 
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button
+              type="submit"
+              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+            >
               Let's talk
             </button>
           </form>

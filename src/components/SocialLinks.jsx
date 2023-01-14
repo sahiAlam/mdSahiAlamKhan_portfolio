@@ -26,7 +26,7 @@ const SocialLinks = () => {
       href: "https://github.com/sahiAlam",
     },
     {
-      id: 2,
+      id: 3,
       child: (
         <>
           Vercel <SiVercel size={30} />
