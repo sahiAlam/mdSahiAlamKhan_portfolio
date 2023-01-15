@@ -7,7 +7,7 @@ import project4 from "../assets/portfolio/project4.jpg";
 import project5 from "../assets/portfolio/project5.jpg";
 import project6 from "../assets/portfolio/project6.jpg";
 
-const Portfolio = () => {
+const Projects = () => {
   const portfolios = [
     {
       id: 1,
@@ -49,13 +49,13 @@ const Portfolio = () => {
 
   return (
     <div
-      name="portfolio"
+      name="projects"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-auto py-20 px-2 sm:px-3"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-3xl md:text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
+            My Projects
           </p>
           <p className="py-2">Check out some of my work right here</p>
         </div>
@@ -88,4 +88,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;

@@ -61,7 +61,7 @@ const Footer = () => {
     <>
       <div className="bg-black px-2 sm:px-3 pt-20">
         <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full pt-10 md:pt-16">
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 lg:px-0 sm:px-3 px-2 border-b-2 border-b-gray-700 text-white pb-10">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 lg:px-0 sm:px-3 px-2 border-b-2 border-b-gray-800 text-white pb-10">
             <div className="text-center text-gray-400 flex flex-col items-center space-y-3">
               <Link to="home">
                 <h1 className="font-numbers text-gray-400 font-bold text-2xl md:text-4xl lg:text-5xl cursor-pointer inline-block">
@@ -96,7 +96,7 @@ const Footer = () => {
                   <p className="capitalize text-center sm:text-start">GCECT, kolkata</p>
                   <p className="capitalize text-center sm:text-start">west bengal</p>
                   <p className="capitalize text-center sm:text-start">ksahi4088@gmail.com</p>
-                  <p className="capitalize text-center sm:text-start">phone: +916295331089</p>
+                  <p className="capitalize text-center sm:text-start font-numbers">phone: +916295331089</p>
                 </li>
               </ul>
             </div>
@@ -114,7 +114,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-            <p className="text-center py-6 text-gray-400">
+            <p className="text-center py-6 px-2 text-gray-400">
               ©Copyright. All right reserved. This portfolio made with ❤️ by Me.
             </p>
           </div>

@@ -5,7 +5,7 @@ import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import Portfolio from "./components/Portfolio";
+import Projects from "./components/Projects";
 import SocialLinks from "./components/SocialLinks";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Home />
       <SocialLinks />
       <About />
-      <Portfolio />
+      <Projects />
       <Experience />
       <Contact />
       <Footer />

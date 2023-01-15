@@ -54,7 +54,7 @@ const Home = () => {
             <img
               src={HeroImage}
               alt="my profile"
-              className="rounded-md w-4/6 mini:w-3/5 hue-rotate-15 saturate-150 mx-auto md:w-full lg:rounded-[50%] brightness-50"
+              className="rounded-md w-4/6 mini:w-3/5 hue-rotate-15 saturate-150 mx-auto md:w-full lg:rounded-[50%] brightness-50 md:border-2 md:border-cyan-300"
             />
           </div>
         </div>

@@ -17,7 +17,7 @@ const Header = () => {
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "projects",
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ const Header = () => {
             href="tel:+916295331089"
             className="flex mini:hidden items-center font-numbers text-gray-400"
           >
-            <FiPhoneCall className="mx-1" /> +91 6295331089
+            <FiPhoneCall className="mr-2 animate-ping" /> +91 6295331089
           </a>
         </button>
         <div>
