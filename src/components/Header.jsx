@@ -21,7 +21,7 @@ const Header = () => {
     },
     {
       id: 4,
-      link: "experience",
+      link: "skils",
     },
     {
       id: 5,
@@ -82,8 +82,6 @@ const Header = () => {
                     onClick={() => setMobilenav(!mobileNav)}
                     to={link}
                     smooth
-                    duration="700"
-                    delay="500"
                   >
                     {link}
                   </Link>

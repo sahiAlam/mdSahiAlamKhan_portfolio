@@ -54,10 +54,10 @@ const Projects = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-3xl md:text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-3xl md:text-4xl font-bold inline border-b-4 border-gray-500 pb-1">
             My Projects
           </p>
-          <p className="py-2">Check out some of my work right here</p>
+          <p className="py-3">Check out some of my work right here</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-0">

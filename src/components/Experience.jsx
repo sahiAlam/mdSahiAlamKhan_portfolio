@@ -6,7 +6,8 @@ import javascript from "../assets/javascript.png";
 import bootstrap from "../assets/bootstrap.png";
 import reactImage from "../assets/react.png";
 import nodeJs from "../assets/node.png";
-import nextjs from "../assets/nextjs.png";
+// import nextjs from "../assets/nextjs.png";
+import sass from "../assets/sass.png"
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -32,27 +33,27 @@ const Experience = () => {
     },
     {
       id: 4,
+      src: sass,
+      title: "Sass",
+      style: "shadow-red-300",
+    },
+    {
+      id: 5,
       src: bootstrap,
       title: "Bootstrap",
       style: "shadow-purple-600",
     },
     {
-      id: 5,
+      id: 6,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
+      id: 7,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 7,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      style: "shadow-sky-500",
     },
     {
       id: 8,
@@ -65,18 +66,18 @@ const Experience = () => {
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
-    },
+    }
   ];
 
   return (
     <div
-      name="experience"
+      name="skils"
       className="bg-gradient-to-b from-gray-800 to-black w-full sm:pt-20 pt-28 px-2 sm:px-3"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col pb-10 justify-center w-full h-screen text-white">
         <div>
           <p className="text-3xl md:text-4xl font-bold border-b-4 border-gray-500 py-1 inline">
-            Experience
+            My Skils
           </p>
           <p className="py-4">These are the technologies I've worked with</p>
         </div>
