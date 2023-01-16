@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const About = () => {
   return (
@@ -14,18 +15,28 @@ const About = () => {
         </div>
 
         <p className="text-normal lg:text-xl py-4">
-          Hello, I'm Md Sahi Alam Khan, a front-end web developer with 1 year of
-          experience. I specialize in creating visually stunning and
-          user-friendly websites using the latest technologies and best
-          practices. My expertise includes proficiency in HTML, CSS,
-          JavaScript,and modern JavaScript libraries such as React.
+          Hello, I'm Md Sahi Alam Khan, a under graduate 3rd year student from
+          Government College Of Engineering and Ceramic Technology{" "}
+          <a
+            href="https://gcect.ac.in/"
+            target="_blank"
+            className="underline text-blue-600 hover:text-blue-400 transition"
+          >
+            (GCECT)
+          </a>{" "}
+          also a front-end web developer with 1 year of experience. I specialize
+          in creating visually stunning and user-friendly websites and web Apps
+          using the latest technologies and best practices. My expertise
+          includes proficiency in ( HTML, CSS, SASS, Bootstrap, Tailwind,
+          JavaScript, React, Node Js, Chakra UI ), i also familiar to javascript
+          ES6 Syntex and modern JavaScript libraries.
         </p>
 
         <p className="text-normal lg:text-xl py-4">
           I have a strong background in designing and implementing responsive
           web designs that look great on any device. I have experience working
           on a wide range of projects, you can just go and checkout my GitHub
-          profile above..
+          profile above 😊❤️
         </p>
         <p className="text-normal lg:text-xl py-4">
           I am passionate about creating great user experiences and am always
@@ -35,7 +46,7 @@ const About = () => {
         <p className="text-normal lg:text-xl py-4">
           If you're looking for a front-end developer who can bring your ideas
           to life and create a website that exceeds your expectations, please
-          don't hesitate to contact me.
+          don't hesitate to contact me. Thankyou ❤️❤️
         </p>
       </div>
     </div>

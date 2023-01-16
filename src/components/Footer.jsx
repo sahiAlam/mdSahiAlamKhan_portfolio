@@ -17,11 +17,11 @@ const Footer = () => {
     },
     {
       id: 3,
-      src: "portfolio",
+      src: "skils",
     },
     {
       id: 4,
-      src: "experience",
+      src: "projects",
     },
     {
       id: 5,
