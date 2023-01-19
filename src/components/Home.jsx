@@ -28,8 +28,8 @@ const Home = () => {
             <div className="flex space-x-6">
               <a
                 href="./resume.pdf"
-                target="blank"
-                download="Md Sahi Alam Khan | Resume"
+                target="_blank"
+                // download="Md Sahi Alam Khan | Resume"
                 className="group text-white w-fit px-3 py-2 my-4 md:px-6 md:py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-500"
               >
                 Resume
