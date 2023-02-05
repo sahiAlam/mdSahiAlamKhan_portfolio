@@ -77,7 +77,7 @@ const Experience = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col pb-10 justify-center w-full h-screen text-white">
         <div>
           <p className="text-3xl md:text-4xl font-bold border-b-4 border-gray-500 py-1 inline">
-            My Skils
+            My Skills
           </p>
           <p className="py-4">These are the technologies I've worked with</p>
         </div>
