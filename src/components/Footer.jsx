@@ -17,7 +17,7 @@ const Footer = () => {
     },
     {
       id: 3,
-      src: "skils",
+      src: "skills",
     },
     {
       id: 4,
