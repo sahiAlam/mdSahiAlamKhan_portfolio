@@ -19,9 +19,9 @@ const Home = () => {
               I'm a Front End Web Developer
             </h2>
             <p className="text-gray-400 py-4 max-w-md text-md md:text-xl">
-              Hi, I'm a undergraduate student from Government College of
-              Engineering and Ceramic Technology. My Specialisation in
-              Information technology.
+              Hi, I'm an undergraduate student from Government College of
+              Engineering and Ceramic Technology. My Specialization is in
+              Information Technology.
             </p>
             {/* mobile social icons  */}
             <SmallScreenSocial />

@@ -15,7 +15,7 @@ const About = () => {
         </div>
 
         <p className="text-normal lg:text-xl py-4">
-          Hello, I'm Md Sahi Alam Khan, a under graduate 3rd year student from
+          Hello, I'm Md Sahi Alam Khan, an under graduate 3rd year student from
           Government College Of Engineering and Ceramic Technology{" "}
           <a
             href="https://gcect.ac.in/"
@@ -24,11 +24,11 @@ const About = () => {
           >
             (GCECT)
           </a>{" "}
-          also a front-end web developer with 1 year of experience. I specialize
+          and also have 1 year of experience as a front-end developer. I specialize
           in creating visually stunning and user-friendly websites and web Apps
           using the latest technologies and best practices. My expertise
           includes proficiency in ( HTML, CSS, SASS, Bootstrap, Tailwind,
-          JavaScript, React, Node Js, Chakra UI ), i also familiar to javascript
+          JavaScript, React, Node Js, Chakra UI ), I am also familiar to javascript
           ES6 Syntex and modern JavaScript libraries.
         </p>
 
