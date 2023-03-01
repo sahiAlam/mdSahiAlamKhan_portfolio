@@ -59,7 +59,7 @@ const Footer = () => {
   return (
     // bg-gradient-to-b from-gray-800 via-gray-900 to-black
     <>
-      <div className="bg-black px-2 sm:px-3 pt-20">
+      <div className="bg-black px-4 sm:px-3 pt-20">
         <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full pt-10 md:pt-16">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 lg:px-0 sm:px-3 px-2 border-b-2 border-b-gray-800 text-white pb-10">
             <div className="text-center text-gray-400 flex flex-col items-center space-y-3">

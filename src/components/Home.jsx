@@ -11,10 +11,10 @@ const Home = () => {
     <>
       <div
         name="home"
-        className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+        className="h-full w-full bg-gradient-to-b from-black via-black to-gray-800"
       >
-        <div className="lg:max-w-screen-lg  mx-auto flex flex-col items-center justify-between h-full px-2 sm:px-3 sm:pt-24 md:flex-row md:space-x-12">
-          <div className="flex flex-col justify-center h-full lg:w-4/5">
+        <div className="lg:max-w-screen-lg  mx-auto flex flex-col items-center justify-between h-full px-4 sm:px-8 lg:px-0 md:flex-row md:space-x-12 py-12 xl:py-20">
+          <div className="flex flex-col justify-center lg:w-4/5">
             <h2 className="text-4xl md:text-5xl lg:7xl font-bold text-white">
               I'm a Front End Web Developer
             </h2>
@@ -50,11 +50,11 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="w-4/5">
+          <div className="w-full">
             <img
               src={HeroImage}
               alt="my profile"
-              className="rounded-md w-4/6 mini:w-3/5 hue-rotate-15 saturate-150 mx-auto md:w-full lg:rounded-[50%] brightness-50 md:border-2 md:border-cyan-300"
+              className="rounded-xl w-full hue-rotate-15 saturate-150 mx-auto md:w-full lg:rounded-[50%] brightness-50 md:border-2 md:border-cyan-300 mt-5 sm:mt-0"
             />
           </div>
         </div>

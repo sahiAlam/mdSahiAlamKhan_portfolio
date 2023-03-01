@@ -52,7 +52,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-full bg-gradient-to-b from-black to-gray-800 px-2 sm:px-3 py-20 text-white"
+      className="w-full h-full bg-gradient-to-b from-black to-gray-800 px-4 sm:px-8 py-20 text-white"
     >
       <div className="max-w-screen-lg mx-auto h-auto">
         <div className="pb-8">
