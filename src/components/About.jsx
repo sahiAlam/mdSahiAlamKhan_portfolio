@@ -24,12 +24,13 @@ const About = () => {
           >
             (GCECT)
           </a>{" "}
-          and also have 1 year of experience as a front-end developer. I specialize
-          in creating visually stunning and user-friendly websites and web Apps
-          using the latest technologies and best practices. My expertise
-          includes proficiency in ( HTML, CSS, SASS, Bootstrap, Tailwind,
-          JavaScript, React, Node Js, Chakra UI ), I am also familiar to javascript
-          ES6 Syntex and modern JavaScript libraries.
+          and also have 1 year of hands on knowledge about web development. I
+          specialize in creating visually stunning and user-friendly websites
+          and web Apps using the latest technologies and best practices. My
+          expertise includes proficiency in ( HTML, CSS, SASS, Bootstrap,
+          Tailwind, JavaScript, React, Node Js, Express js, Monogo DB, Chakra UI
+          ), I am also familiar to javascript ES6 Syntex and modern JavaScript
+          libraries.
         </p>
 
         <p className="text-normal lg:text-xl py-4">
