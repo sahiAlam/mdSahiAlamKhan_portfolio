@@ -1,5 +1,6 @@
 import React from "react";
 // import { Link } from "react-scroll";
+import movieProject from "../assets/portfolio/movie_project.jpeg";
 import project1 from "../assets/portfolio/project1.jpg";
 import project2 from "../assets/portfolio/project2.jpg";
 import project3 from "../assets/portfolio/project3.jpg";
@@ -11,36 +12,42 @@ const Projects = () => {
   const portfolios = [
     {
       id: 1,
+      src: movieProject,
+      demo_link: "https://movie-details-app-orpin.vercel.app/",
+      code_link: "https://github.com/sahiAlam/movie-details-app",
+    },
+    {
+      id: 2,
       src: project1,
       demo_link: "https://exchange-react-app-sahi-project3.vercel.app/",
       code_link: "https://github.com/sahiAlam/exchange-react-app-sahi-project3",
     },
     {
-      id: 2,
+      id: 3,
       src: project2,
       demo_link: "https://weather-report-app-sahil.vercel.app/",
       code_link: "https://github.com/sahiAlam/weatherApp",
     },
     {
-      id: 3,
+      id: 4,
       src: project3,
       demo_link: "https://code-festival.vercel.app/",
       code_link: "https://github.com/sahiAlam/codeFestival",
     },
     {
-      id: 4,
+      id: 5,
       src: project4,
       demo_link: "https://sahialam.github.io/tailwind-project/",
       code_link: "https://github.com/sahiAlam/tailwind-project",
     },
     {
-      id: 5,
+      id: 6,
       src: project5,
       demo_link: "https://code-festival-hsl5.vercel.app/",
       code_link: "https://github.com/sahiAlam/landing-page",
     },
     {
-      id: 6,
+      id: 7,
       src: project6,
       demo_link: "https://sahialam.github.io/university/",
       code_link: "https://github.com/sahiAlam/university",
