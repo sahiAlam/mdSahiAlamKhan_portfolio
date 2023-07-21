@@ -1,5 +1,6 @@
 import React from "react";
 // import { Link } from "react-scroll";
+// all the images imported
 import project1 from "../assets/portfolio/project1.jpg";
 import project2 from "../assets/portfolio/project2.jpg";
 import project3 from "../assets/portfolio/project3.jpg";
