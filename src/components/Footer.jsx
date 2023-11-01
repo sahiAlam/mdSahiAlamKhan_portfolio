@@ -80,11 +80,20 @@ const Footer = () => {
               </h3>
               <ul className="py-4 space-y-3 text-gray-500">
                 {footerLinks.map(({ id, src }) => (
-                  <li key={id} className="uppercase text-md cursor-pointer md:hover:text-gray-200 transition md:hover:scale-105 text-center sm:text-start">
+                  <li
+                    key={id}
+                    className="uppercase text-md cursor-pointer md:hover:text-gray-200 transition md:hover:scale-105 text-center sm:text-start"
+                  >
                     <Link to={src}>{src}</Link>
                   </li>
                 ))}
               </ul>
+              <a
+                href="https://ns-india.vercel.app/"
+                className="py-2 px-10 shadow-md shadow-green-200 border-2 rounded-md  border-red-800 animate-pulse"
+              >
+                New
+              </a>
             </div>
             <div className="mx-auto">
               <h3 className="text-2xl text-center sm:text-left sm:text-3xl md:text-4xl pb-1.5 font-bold text-gray-400">
@@ -92,11 +101,21 @@ const Footer = () => {
               </h3>
               <ul className="py-3 text-gray-500">
                 <li className=" space-y-1 text-center sm:text-start">
-                  <p className="capitalize text-center sm:text-start">Md. Sahi Alam khan</p>
-                  <p className="capitalize text-center sm:text-start">GCECT, kolkata</p>
-                  <p className="capitalize text-center sm:text-start">west bengal</p>
-                  <p className="capitalize text-center sm:text-start">ksahi4088@gmail.com</p>
-                  <p className="capitalize text-center sm:text-start font-numbers">phone: +916295331089</p>
+                  <p className="capitalize text-center sm:text-start">
+                    Md. Sahi Alam khan
+                  </p>
+                  <p className="capitalize text-center sm:text-start">
+                    GCECT, kolkata
+                  </p>
+                  <p className="capitalize text-center sm:text-start">
+                    west bengal
+                  </p>
+                  <p className="capitalize text-center sm:text-start">
+                    ksahi4088@gmail.com
+                  </p>
+                  <p className="capitalize text-center sm:text-start font-numbers">
+                    phone: +916295331089
+                  </p>
                 </li>
               </ul>
             </div>
